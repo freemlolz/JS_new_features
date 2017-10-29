@@ -15999,11 +15999,22 @@ return zhTw;
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// index.js
-var moment = __webpack_require__(0);
-console.log("Hello from JavaScript!");
-console.log(moment().startOf('day').fromNow());
+"use strict";
+
+
+var _moment = __webpack_require__(0);
+
+var _moment2 = _interopRequireDefault(_moment);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+console.log("Hello from JavaScript!"); // index.js
+
+console.log((0, _moment2.default)().startOf('day').fromNow());
 console.log("Hi there");
+var name = "Jon",
+    surname = "Doe";
+console.log('Hello ' + name + ' named ' + surname + ', how are you today?');
 
 /***/ }),
 /* 120 */
